@@ -24,12 +24,12 @@ const getProduct = async (): Promise<CartItemType[]> => {
   )
 }
 
-const getProduct1 = async (): Promise<CartItemType[]> => {
-  return (
-    await axios.get('https://fakestoreapi.com/products')
-  )
+// const getProduct1 = async (): Promise<CartItemType[]> => {
+//   return (
+//     await axios.get('https://fakestoreapi.com/products')
+//   )
   // console.log(getProduct1);
-}
+// }
 function App() {
   const [cartOpen, setCartOpen] = useState(false)
   const [cartItems, setCartItems] = useState([] as CartItemType[])
