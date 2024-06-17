@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useQuery } from "react-query"
-import axios from "axios"
+// import axios from "axios"
 import { Drawer, LinearProgress, Grid, Badge } from "@mui/material"
 import { AddShoppingCart } from "@mui/icons-material"
 import { Wrapper, StyledButton } from "./App.styles"
