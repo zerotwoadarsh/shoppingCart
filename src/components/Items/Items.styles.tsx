@@ -18,4 +18,6 @@ img{
     border-radius: 20px 20px 0 0;
 }
 
+div{
+    font-family:}
 `;
